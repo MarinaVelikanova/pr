@@ -29,16 +29,47 @@
     height: 56px;
     left: 46.21%;
     right: 0%;
-    top: 28px;    
+    top: 28px;   
+    display: flex; 
+    align-items: center;
 }
 
 .links{
     margin-left: 20px;
     vertical-align: middle;
+    text-decoration: none;
+}
+
+.why{
+width: 97px;
+height: 27px;
+left: 240px;
+top: 15.2px;
+display: flex;
+}
+
+.arrow{
+    margin-top: 5px;
+    margin-left: 5px;
+    left: 337px;
+}
+
+.buttons{
+height: 27px;
+top: 15.2px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 26px;
+color: black;
 }
 
 .promo{
     background-color: #FFF3F1;
+    align-items: center;
+    margin:0 auto;  
 }
 
 .promo-wrap{
@@ -58,6 +89,7 @@ height: 604.59px;
 left: 9.38%;
 right: 59.38%;
 top: 222.89px;
+align-items: center;
 }
 
 .promo-title{
