@@ -7,9 +7,11 @@
     background-color: white;
     padding: 20px 0;
     color: black;
+    max-width: 1440;
+    margin: 0 auto;
 }
 .menu{
-    width: 1140px;
+    max-width: 1440px;
     height: 56px;
     margin-top: 13px;
     margin-left: 48px;
@@ -70,17 +72,20 @@ color: black;
     background-color: #FFF3F1;
     align-items: center;
     margin:0 auto;  
+    max-width: 1440px;
 }
 
 .promo-wrap{
     background-image: url(../img/Hero-image.png);
     min-height: 1000px;
+    max-width: 1140;
     background-position-x: 620px;
     background-position-y: bottom;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin: 0 auto;
 }
 
 .content{
