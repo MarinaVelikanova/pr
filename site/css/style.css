@@ -7,8 +7,8 @@
     background-color: white;
     padding: 20px 0;
     color: black;
-    max-width: 1440;
-    margin: 0 auto;
+    max-width: 1440px;
+  
 }
 .menu{
     max-width: 1440px;
@@ -29,8 +29,8 @@
 .header-right{
     position: absolute;
     height: 56px;
-    left: 46.21%;
-    right: 0%;
+    width: 723px;
+   margin-left: 600px;
     top: 28px;   
     display: flex; 
     align-items: center;
@@ -40,6 +40,33 @@
     margin-left: 20px;
     vertical-align: middle;
     text-decoration: none;
+}
+
+.book{
+height: 56px;
+width: 145px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: #007188;
+border-radius: 5px;
+text-align: center;
+}
+
+.book-text{
+    position: absolute;
+height: 27px;
+top: 13px;
+margin-left: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 26px;
+
+color: #FFFFFF;
 }
 
 .why{
@@ -73,28 +100,30 @@ color: black;
     align-items: center;
     margin:0 auto;  
     max-width: 1440px;
+    justify-content: center;
+    display: flex;
 }
 
 .promo-wrap{
     background-image: url(../img/Hero-image.png);
     min-height: 1000px;
-    max-width: 1140;
+    width: 1440px;
     background-position-x: 620px;
     background-position-y: bottom;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    margin: 0 auto;
+    justify-content:left;
+   
 }
 
 .content{
     position: absolute;
 height: 604.59px;
-left: 9.38%;
-right: 59.38%;
+width: 450px;
 top: 222.89px;
 align-items: center;
+margin-left: 135px;
 }
 
 .promo-title{
@@ -143,6 +172,7 @@ top: 384.59px;
 .rectangle1{
     position: absolute;
 height: 82px;
+width: 450px;
 left: 0%;
 right: 0%;
 top: -0.48px;
@@ -160,26 +190,22 @@ width: 134px;
 height: 34px;
 left: 37px;
 top: 23.52px;
-
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 34px;
-/* identical to box height, or 187% */
-
 letter-spacing: 0.3px;
-
 color: rgba(0, 0, 0, 0.37);
 }
 
 .rectangle2{
     position: absolute;
 height: 69px;
+width: 162px;
 left: 62.22%;
 right: 1.78%;
 top: 5.52px;
-
 background: #007188;
 border-radius: 200px;
 align-items: center;
@@ -191,10 +217,8 @@ text-align: center;
     width: 95px;
     height: 34px;
     text-align: center;
-    margin-left: 22px;
+    margin-left: 34px;
     margin-top: 18px;
-   
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -210,4 +234,191 @@ height: 105px;
 left: 0%;
 right: 0%;
 top: 499.59px;
+}
+
+.getStart{
+max-width: 1440px;
+height: 763px;
+left: 0px;
+background-color: white;
+justify-content: center;
+margin-top: 80px;
+align-items: center;
+}
+
+.GS-elements{
+    max-width   : 1440px;
+    height: 93px;
+    display: flex;
+    text-align: center;
+}
+
+.frames{
+    width: 360px;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.num{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 62px;
+color: #041011;
+}
+.num1{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+color: #041011;
+margin-top: 23px;
+}
+.num2{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+letter-spacing: 0.3px;
+color: #041011;
+
+text-align: center;
+}
+.break{
+    flex-basis: 100%;
+    height: 0px;
+}
+.getEasy{
+    height: 590px;
+    width: 1140px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+.GEBackground{
+    background-image: url(../img/Background.png);
+    height: 590px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.GSIEBlock{
+    width: 646px;
+    height: 175px;
+    text-align: center;
+    margin-top: 120px;
+}
+.GSIE{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 56px;
+color: #041011;
+}
+.GSElements{
+    width: 970px;
+    height: 175px;
+    display: flex;
+}
+.GSElement{
+    width: 323.33px;
+    height: 175px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.GSText{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.3px;
+color: #041011;
+}
+.Oval{
+    background-image: url(../img/Oval.png);
+    height: 62px;
+    width: 61px;
+}
+.OvalNum{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 60px;
+color: #002E8C;
+}
+.decoBlock{
+    width: 179px;
+    height: 104px;
+    margin-left: 923px;
+    margin-top: 60px;
+    background-image: url(../img/Promo-decorative-arrow.png);
+}
+.champion{
+    max-width: 1440px;
+    height: 745px;
+    margin-top: 83px;
+    justify-content: center;
+    display: flex;
+}
+.championMini{
+    width: 1140px;
+    display: flex;
+}
+.CPhoto{
+    width: 570px;
+    height: 668px;
+    background-image: url(../img/Section-photo.png);
+}
+.CText{
+    width: 570px;
+    height: 338px;
+    text-align: left;
+    margin-left: 80px;
+}
+.CTitle{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 43px;
+color: #041011;
+margin-bottom: 27px;
+margin-top: 159px;
+}
+.CDescription{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 34px;
+letter-spacing: 0.3px;
+color: #041011;
+margin-bottom: 33px;
+}
+.CLine{
+    width: 115px;
+    height: 2px;
+    background: #007188;
+}
+.CRef{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 31px;
+color: #007188;
+text-decoration: none;
 }
