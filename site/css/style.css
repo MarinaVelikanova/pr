@@ -393,8 +393,10 @@ text-decoration: none;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    position: absolute;
 }
 .FeatTitle{
+    position: absolute;
     font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -405,12 +407,24 @@ width: 423px;
 height: 56px;
 margin-top: 2px;
 }
-.FPost{
+.FPost1{
+    position:absolute;
     width: 350px;
     height: 574px;
     background-color: white;
     justify-content: left;
-    margin-right: 30px;
+
+    left: 1.32%;
+    margin-top: 94px;
+    border-radius: 12px;
+}
+.FPost2{
+    position:absolute;
+    width: 350px;
+    height: 574px;
+    background-color: white;
+    justify-content: left;
+    left: 34.65%;
     margin-top: 94px;
     border-radius: 12px;
 }
@@ -448,23 +462,26 @@ margin-left: 30px;
 margin-top: 38px;
 }
 .FPostS{
+    position: absolute;
     width: 350px;
     height: 542px;
     background-color: white;
     justify-content: left;
-    margin-right: 30px;
     margin-top: 94px;
+    left: 67.98%;
     border-radius: 12px;
 }
 .FButton{
+    position: absolute;
 background: #007188;
 border-radius: 5px;
 width: 166px;
 height: 58px;
-margin-top: 60px;
+margin-top: 728px;
 display: flex;
 align-items: center;
 justify-content: center;
+left: 42.72%;
 }
 .BText{
     font-family: Roboto;
@@ -487,12 +504,14 @@ color: #FFFFFF;
     width: 1140px;
     height: 667.7px;
     display: flex;
+    position:absolute;
 }
 .EText{
     width: 570px;
     height: 295px;
     margin-top: 186.34px;
     margin-left: 80px;
+    position: absolute;
 }
 .ETitle{
     margin-top: 6px;
@@ -531,6 +550,10 @@ margin-top: 30px;
     height: 2px;
     background-color: #007188;
     margin-top: 5px;
+}
+.EPhoto{
+    left: 50%;
+    position: absolute;
 }
 .reviews{
     max-width: 1440px;
@@ -663,16 +686,20 @@ margin-top: 29px;
     margin-top: 120px;
     text-align: center;
     align-items: center;
+    justify-content: center;
+    position: absolute;
 }
 .plane-inverted{
     width: 87px;
     height: 98px;
     margin-top: 329px;
+    margin-right: 1000px;
 }
 .plane{
     width: 87px;
     height: 98px;
     margin-top: 38px;
+  
 }
 .Sub-Title{
     font-family: Roboto;
@@ -683,6 +710,8 @@ line-height: 15px;
 letter-spacing: 2px;
 text-transform: uppercase;
 color: #F7FAFF;
+position: absolute;
+left: 42.27%;
 }
 .SUTitle{
     font-family: Roboto;
@@ -692,6 +721,8 @@ font-size: 51px;
 line-height: 56px;
 color: #FFC8C8;
 margin-top: 4px;
+position: absolute;
+left: 14%;
 }
 .SURectangle1{
     width: 803px;
@@ -704,18 +735,20 @@ margin-top: 4px;
     margin-top: 43px;
     display: flex;
     align-items: center;
+    position: absolute;
+    top: 117px;
 }
 .SURectangle2{
     width: 162px;
     height: 69px;
     background-color: #007188;
     border-radius: 200px;
-    margin-left: 375px;
+    margin-left: 630px;
     text-decoration: none;
-    
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 .SUemail{
     font-family: Roboto;
@@ -728,6 +761,7 @@ color: rgba(0, 0, 0, 0.37);
 outline: none;
 border: none;
 margin-left: 32px;
+position: absolute;
 }
 .Sub{
     font-family: Roboto;
@@ -750,17 +784,19 @@ color: #FFFFFF;
     width: 1140px;
     height: 265px;
     display: flex;
-    margin-top: 100px;
     flex-wrap: wrap;
+    position: absolute;
 }
 .FLogo{
-    margin-left: 48px;
+    left: 4.21%;
     width: 118px;
     height: 40px;
+    position: absolute;
 }
 .sitemap{
-    margin-left: 167px;
     width: 189px;
+    position: absolute;
+    left: 29.21%;
 }
 .FTitle{
     font-family: Roboto;
@@ -788,18 +824,22 @@ color: #818788;
     height: 21px;
 }
 .social{
-    margin-left: 96px;
+    left: 54.21%;
     width: 189px;
+    position: absolute;
 }
 .getApp{
-    margin-left: 96px;
+    left: 79.21%;
     width: 189px;
+    position: absolute;
 }
 .FInfo{
     width: 759px;
     height: 250px;
     margin-bottom: 80px;
     margin-left: 290px;
+    margin-top: 365.41px;
+    position: absolute;
 }
 .copyright{
     font-family: Roboto;
